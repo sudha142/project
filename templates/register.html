@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>djForms with Builtin Validations..!!</title>
+</head>
+<body>
+<h2>Emp Registration Form..!!</h2>
+<div class="container" align="center">
+ <form method="post">
+  {{ form.as_p }}
+  {% csrf_token %}
+  <input type="submit" value="NewEmp" class="btn btn-success">
+ </form>
+</div>
+</body>
+</html>
